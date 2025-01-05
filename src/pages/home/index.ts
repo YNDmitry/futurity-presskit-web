@@ -1,4 +1,5 @@
 // Your code here
-export default function homePage(username?: string) {
-  console.log(`Hello ${username || 'world 123123'}`)
+function homePage() {
+  console.log(`Hello 'world 123123'`)
 }
+homePage()
